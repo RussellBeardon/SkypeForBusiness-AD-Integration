@@ -5,13 +5,15 @@ Script is designed to be run as ascheduled task to automated adding and removing
 
 Edit the variables in this script to customise it for your own environment:
 
-# email settings
+email settings:
+
 $mailserver = ""
 $mailFrom = ""
 $mailTo = ""
 $hostname = $env:computername
 
-# skype AD group
+skype AD group:
+
 $ADGroup = "SkypeUsers"
 $skypeDomain = ""
 $skypeRegistrarPool = ""
